@@ -1,8 +1,7 @@
-object Q02 {
+object Q02 extends App{
   def findVolume(r: Float) = {
     print("volume is : "+((4*22*r*r*r)/(3*7)))
   }
-  def main()=
-    {}
-  findVolume(5.0)
+
+  findVolume(5)
 }
