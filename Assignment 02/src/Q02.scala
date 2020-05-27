@@ -6,9 +6,9 @@ object Q02 extends App{
   def profit(price:Double)                 : Double = income(price) - cost(price)
   def betterPrice(): Unit = {
     var i=5;
+    println("PeopleCount    Price     income    cost    profit")
     while (i<50)
     {
-      println("Count  Price   income    cost    profit")
       println(count(i), "   ", i, "   ", income(i), "  ", cost(i), "   ", profit(i))
       i+=5
     }
