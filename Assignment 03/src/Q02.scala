@@ -11,8 +11,8 @@ object Q02 extends App {
       case x => prime(n,x+1)
     }
     def primeSeq(n:Int,x:Int=2):Unit = {
-      if (prime(x)) print(x+",")
       if (x==n) return
+      if (prime(x)) print(x+",")
       primeSeq(n,x+1)
     }
 
